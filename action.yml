@@ -1,0 +1,9 @@
+name: 'Nasher4GH'
+author: Mark Collin
+description: "Github action that utilises Nasher to build NWN modules"
+runs:
+  using: 'docker'
+  image: 'docker://ghcr.io/ardesco/nasher4gh:latest'
+  args:
+    - pack
+    - --default
