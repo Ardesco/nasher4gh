@@ -1,4 +1,7 @@
 name: 'Nasher4GH'
+branding:
+  icon: 'eye'
+  color: 'blue'
 author: Mark Collin
 description: "Github action that utilises Nasher to build NWN modules"
 runs:
