@@ -6,7 +6,7 @@ author: Mark Collin
 description: "Github action that utilises Nasher to build NWN modules"
 runs:
   using: 'docker'
-  image: 'docker://ghcr.io/ardesco/nasher4gh:latest'
+  image: 'docker://ghcr.io/ardesco/nasher4gh-images:latest'
   args:
     - pack
     - --default

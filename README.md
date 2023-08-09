@@ -29,5 +29,9 @@ jobs:
 ```
 This will run `nasher pack --default`
 
+## Docker container source 
+
+Docker containers used by this action are created/managed via https://github.com/Ardesco/nasher4gh-images.
+
 ## License
 The Dockerfile and associated scripts and documentation in this project are released under the [Apache-2.0 License](LICENSE).
