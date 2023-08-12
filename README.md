@@ -29,7 +29,7 @@ jobs:
 ```
 This will run `nasher pack --default`
 
-If you want to use the new nwn_script_comp compiler you will need to pass in an additional argument called `-usenwnscriptcomp`:
+If you want to use the new [nwn_script_comp](https://github.com/niv/neverwinter.nim/blob/master/nwn_script_comp.nim) compiler you will need to pass in an additional argument called `-usenwnscriptcomp`:
 
 ```yaml
 name: Run CI Build
