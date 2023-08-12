@@ -2,11 +2,13 @@ name: 'Nasher4GH'
 branding:
   icon: 'eye'
   color: 'blue'
+inputs:
+  args:
+    description: 'Arguments to pass into Nasher'
+    default: 'pack --default'
 author: Mark Collin
 description: "Github action that utilises Nasher to build NWN modules"
 runs:
   using: 'docker'
   image: 'docker://ghcr.io/ardesco/nasher4gh-images:latest'
-  args:
-    - pack
-    - --default
+  args: ['${{ inputs.args }}']
