@@ -5,7 +5,7 @@ branding:
 inputs:
   args:
     description: 'Arguments to pass into Nasher'
-    default: 'pack --default'
+    default: pack --default
 author: Mark Collin
 description: "Github action that utilises Nasher to build NWN modules"
 runs:
